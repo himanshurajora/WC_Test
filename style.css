@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto2:wght@400;700&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo-name{
+    font-size: xx-large;
+    font-family: 'Roboto2', sans-serif;
+    font-weight: 900;
+    border: 2px solid black;
+    padding: 0px 5px;
+}
+#logo-icon{
+    background-color: #FF1616;
+    color: white;
+    padding: 0px 4px;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px; 
+}
+
+.navbar{
+    font-size: large;
+}
+
+
+.nav-link, .nav-item {
+    color: black;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-weight: bolder;
+}
+
+#hindi{
+    border: 2px solid black;
+}
+
+.heading1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
